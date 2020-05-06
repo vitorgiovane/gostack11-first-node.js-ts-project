@@ -5,7 +5,7 @@
     <br>
     <br>  
 </h2>
-<h4 align="center">An Node.js API with TypeScript</h4>
+<h4 align="center">A Node.js API with TypeScript</h4>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/vitorgiovane/gostack11-first-node.js-ts-project?color=%2304D361">
   <img alt="GitHub tp language" src="https://img.shields.io/github/languages/top/vitorgiovane/gostack11-first-node.js-ts-project">
