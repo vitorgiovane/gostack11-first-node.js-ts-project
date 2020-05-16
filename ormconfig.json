@@ -1,0 +1,8 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 8020,
+  "username": "gobarber",
+  "password": "gobarber",
+  "database": "gobarber"
+}
