@@ -22,15 +22,13 @@ appointmentsRouter.post('/', async (request, response) => {
   const parsedDatetime = parseISO(date)
 
   const createAppointment = new CreateAppointment()
-  try {
-    const appointment = await createAppointment.run({
-      user_id,
-      date: parsedDatetime
-    })
-    return response.json(appointment)
-  } catch (error) {
-    return response.status(400).json({ error: error.message })
-  }
+
+  const appointment = await createAppointment.run({
+    user_id,
+    date: parsedDatetime
+  })
+
+  return response.json(appointment)
 })
 
 export default appointmentsRouter
