@@ -10,7 +10,7 @@ interface Request {
 }
 
 class CreateUser {
-  public async execute({ name, email, password }: Request): Promise<User> {
+  public async run({ name, email, password }: Request): Promise<User> {
     const usersRepository = getRepository(User)
 
     const checkUserExists = await usersRepository.findOne({
